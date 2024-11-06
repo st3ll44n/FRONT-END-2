@@ -1,0 +1,16 @@
+h2{
+    font-size: 20pt;
+    text-align: center;
+ }
+body{
+    background-color: dimgray;
+}
+
+img{
+
+/* Largura - width */
+    width: 600px;
+    height: auto;
+    border-radius: 100%;
+    border: 3px solid black;  
+}
