@@ -1,6 +1,6 @@
 *{ 
     padding: 0%;
-    margin: 0%;
+    margin: 10px;
 }
 
 body{
@@ -12,7 +12,7 @@ header, footer{
     padding: 20px 0px;
     height: 30px;
     text-align: center;
-    background-color: crimson;
+    background-color: rgb(29, 102, 151);
     color: white;
     font-family: 'Courier New', Courier, monospace;
     font-size: large;
@@ -47,6 +47,27 @@ nav a{
 }
 
 footer{
-    position: absolute;
+    position: relative;
     bottom: 0%;
 }
+
+.produto{
+    width: 200px;
+    padding: 10px;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    background-color: rgb(137, 184, 168);
+}
+
+.produto img{
+    width: 100%;
+}
+
+#catalogo{
+    display:flex ;
+    justify-content: center;
+    flex-wrap: wrap ;
+    }
