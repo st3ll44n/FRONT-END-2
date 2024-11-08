@@ -1,0 +1,56 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    color: white;
+    margin: 10px 10px;
+}
+
+.pai{
+    width: 200px;
+    height: 300px;
+    background-color: seagreen;
+    /* posicionamento no pai */
+    display:flex;
+    /* Houve mudança no comando de left e right, agora se comanda com start e end */
+    margin: 20px;
+}
+
+#pai1{ 
+    /* alinhamento do eixo x */
+    justify-content: space-between;
+    /* alinhamento do eixo y */
+    align-items: center;
+    /* space-between - joga os elemnetos par aa lateral */
+    /* space-around - joga os elementos par aa lateralcom espaçamento */
+}
+
+#pai2{ 
+    /* Gap é uma margem especifica para flexbox */
+    gap: 20px;
+    /* wrap - joga os elementos caso não caibam na tela */
+    flex-wrap: wrap;
+    /* row - linha / column - coluna*/
+    /*  */
+    flex-direction: row;
+}
+
+.filho{
+    width: 30px;
+    height: 30px;
+}
+
+.f1{
+    background-color: chocolate;
+}
+
+.f2{
+    background-color:cornflowerblue;
+}
+
+.f3{
+    background-color: darkslategrey;
+}
+
+.f4{
+    background-color: mediumpurple;
+}
