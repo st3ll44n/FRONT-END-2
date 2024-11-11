@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=DotGothic16&family=Edu+AU+VIC+WA+NT+Pre&family=VT323&display=swap');
+
+*{ 
+    padding: 0%;
+    margin: 0%;
+    font-family: "VT323", monospace;
+    color: black;
+}
+
+header{
+   width: 100%;
+   background-color: white;
+   padding: 10px 0px;
+   display: flex;
+   justify-content: end;
+}
+
+#banner{
+    width: 100%;
+    height: 300px;
+    display: flex;
+}
+
+#banner_direito{
+    width: 70%;
+    height: 100%;
+}
+
+#banner_esquerdo{
+    width: 30%;
+    height: 100%;
+}
+
+#banner_esquerdo img, #banner_direito img{
+    width: 100%;
+    height: 100%;
+}
+
+#artigo{
+    width: 100%;
+    display: flex;
+}
+
+#agenda, #servicos{
+    width: 50%;
+}
+
+.tituloartigo{
+    width: 100%;
+    padding: 10px 0px;
+    background-color: black;
+    color: white;
+}
+
+a{
+    color: black;
+    text-decoration: none;
+}
+
+nav{
+    display: flex;
+    gap: 20px;
+    height: 30px;
+}
+
+#Titulo {
+    font-size: larger;
+}
+
+#desenvolvimento {
+    font-size: medium;
+}
+
+footer{
+    width: 100%;
+    padding: 10px 0px;
+    position: relative;
+    text-align: left;
+    background-color:black;
+    color: white;
+}
