@@ -1,0 +1,59 @@
+@keyframes animacao {
+    0%{
+        background-color: chocolate;
+    }
+    50%{
+        background-color: darkcyan;
+    }
+    100%{
+        background-color: brown;
+    }
+}
+
+@font-face {
+    font-family: DuneRise;
+    src: url(font/Dune_Rise.ttf);
+}
+
+* {
+    margin: 0%;
+    padding: 0%;
+}
+
+h1{
+    font-family: DuneRise, Arial, Helvetica, sans-serif;
+}
+
+.caixa{
+    width: 200px;
+    height: 200px;
+    margin: 10px;
+    border-radius: 10px;
+}
+
+#caixa1{
+    background-color: dimgrey;
+    transform: 1s;
+}
+
+#caixa1:hover{
+    border-radius: 100%;
+    transition: 0.5s;
+    animation: 1s animacao infinite;
+
+}
+
+#caixa2{
+    background-color: blue;
+    transition: 0,2s;
+}
+
+#caixa2:active{
+    width: 80%;
+    background-color: aqua;
+    transition: 0.2s;
+}
+
+#caixa3{
+    background-color: blueviolet;
+}

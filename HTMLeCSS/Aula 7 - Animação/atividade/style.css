@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=DotGothic16&family=Edu+AU+VIC+WA+NT+Pre&family=Gamja+Flower&family=VT323&display=swap');
+
+*{
+    margin: 0%;
+    padding: 0%;
+    font-family: "Gamja Flower", sans-serif;
+}
+
+.cabeca{
+    text-align: center;
+    font-size: xx-large;
+    background-color: rgb(152, 123, 93) ;
+    color: white;
+}
+
+a{  
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;  
+    font-size: xx-large;
+    background-color: wheat;
+    color: brown;
+    text-decoration: none;
+}
+
+main h1{
+    text-align: center;
+}
+
+main img{
+    width: 700px;
+    height: auto;
+    border-radius: 10px;
+    margin: 0 auto;
+}
