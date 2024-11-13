@@ -6,13 +6,26 @@
     font-family: "Gamja Flower", sans-serif;
 }
 
-.cabeca{
+
+
+#barra1{
+    display: flex;
     text-align: center;
     font-size: xx-large;
     background-color: rgb(152, 123, 93) ;
     color: white;
+    align-items: center;
 }
 
+#barra1 img{
+    width: 2.5%;
+    height: auto;
+}
+
+#barra1 h1{
+    font-size: xx-large;
+    margin-left: 850px;
+}
 a {      
               
     font-size: xx-large;         
@@ -34,9 +47,6 @@ a {
     position: relative;
 }
 
-main h1{
-    text-align: center;
-}
 
 main img{
     width: 700px;
@@ -44,6 +54,14 @@ main img{
     border-radius: 10px;
     display: block;
     margin: 0 auto;
+}
+
+main h1{
+    
+        display: flex;
+        justify-content: center;
+        font-weight: bold;
+        unicode-bidi: isolate;
 }
 
 container {
@@ -74,4 +92,21 @@ container {
     font-weight: bold;
     color: white;
     font-size: x-large;
+}
+
+.quadrado {
+    width: 100px;
+    height: 100px;
+    border-radius: 10px;
+    position: relative; 
+    animation: mover 3s infinite alternate, 2s infinite alternate;
+}
+
+@keyframes mover {
+    0% {
+        left: 0; 
+    }
+    100% {
+        left: 300px;
+    }
 }
