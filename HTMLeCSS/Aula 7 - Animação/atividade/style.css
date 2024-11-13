@@ -46,8 +46,32 @@ main img{
     margin: 0 auto;
 }
 
-p{
-    text-align: center;
-    margin: 50px 10px;
+container {
+    max-width: 800px;
+    margin: 0 auto;
+    background-color:brown;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.vantagens {
+    list-style-type: none;
+    padding: 30px;
+}
+
+.vantagens li {
+    background-color: rgb(187, 167, 147) ;
+    border-left: 5px solid ;
+    margin: 10px 0;
+    padding: 15px;
+    font-size: 1.2rem;
+    border-radius: 5px;
+    font-size: x-large;
+}
+
+.vantagens li strong {
+    font-weight: bold;
+    color: white;
     font-size: x-large;
 }
